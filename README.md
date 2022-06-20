@@ -16,6 +16,8 @@ I created this project as a fun side project to help me learn programming by rec
 
 Inspired by https://github.com/codecrafters-io/build-your-own-x
 
+> What I cannot create, I do not understand ~ Richard Feynman.
+
 <br/>
 
 <br/>
