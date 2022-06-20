@@ -2,7 +2,7 @@
 *  @author: zerofrost🦊
 *  @date: 2022-6-20
 *  @description: Simple implementation of library hooking of function calls in Linux 
-*  @compilation: gcc -ldl malicious.c -fPIC -shared -D_GNU_SOURCE -o malicious.so
+*  @compilation: gcc -ldl lib-write.c -fPIC -shared -D_GNU_SOURCE -o lib-write.so
 
 */
 

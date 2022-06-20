@@ -9,10 +9,6 @@
 
 <br/>
 
-## Techstack
-- C
-
-<br/>
 
 ## About
 I created this project as a fun side project to help me learn programming by recreating existing technologies, projects  and tools. 
@@ -22,13 +18,34 @@ Inspired by https://github.com/codecrafters-io/build-your-own-x
 
 <br/>
 
-
 <br/>
 <br/>
 <br/>
 <br/>
 
 ## <div align="center">TABLE OF CONTENTS</div>
+* [Hooking Shared Library Function Calls in Linux](#library-hooking)
 
-<li><a href="#blogs">Hooking Shared Library Function Calls in Linux</a></li>
-<li><a href="#blogs">Blogs</a></li>
+<br/>
+<br/>
+<br/>
+<br/>
+
+********************** 
+          
+### <div align="center">**LIBRARY HOOKING**</div>
+
+********************** 
+
+[Simple write syscall hook](src/lib-write.c)
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Techstack
+- C
+
+<br/>
+
