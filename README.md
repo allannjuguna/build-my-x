@@ -39,7 +39,7 @@ Inspired by https://github.com/codecrafters-io/build-your-own-x
 
 [Simple write syscall hook](src/lib-write.c)
 
-<br/>
+<!-- <br/>
 <br/>
 <br/>
 <br/>
@@ -47,5 +47,5 @@ Inspired by https://github.com/codecrafters-io/build-your-own-x
 ## Techstack
 - C
 
-<br/>
+<br/> -->
 
