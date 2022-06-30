@@ -41,13 +41,9 @@ Inspired by https://github.com/codecrafters-io/build-your-own-x
 
 [Simple write syscall hook](src/lib-write.c)
 
-<!-- <br/>
-<br/>
-<br/>
-<br/>
 
-## Techstack
-- C
+## Other Projects
+- Simple Curl Clone
+- Create a simple c webserver
 
-<br/> -->
 
