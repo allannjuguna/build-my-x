@@ -14,7 +14,7 @@
 #include <netinet/in.h>
 
 #define HOST "127.0.0.1"
-#define PORT 4444
+#define PORT 80
 
 int main(int argc,char **argv){
 
@@ -35,8 +35,38 @@ int main(int argc,char **argv){
 	printf("Connection to server succeeded\n");
 
 
-	/*Sending a message to the server*/
-	
+/*
+GET / HTTP/1.1
+Host: localhost:4444
+User-Agent: curl/7.81.0
+Accept: 
 
+*/
+
+	/*Sending a message to the server*/
+	char *message="GET /flag HTTP/1.1\r\nHost: localhost:4444\r\nUser-Agent: curl\r\nConnection: close\r\n\r\n";
+	int sendmessage=send(sock,message,strlen(message),0);
+	printf("The value for send message is %d\n", sendmessage);	
+	printf("\n\n===================MESSAGE================\n");
+	printf("%s\n",message );
+
+
+
+	/*Receiving a message*/
+
+    /* Read the response. */
+	printf("\n\n===================RESPONSE================\n");
+	#define BUFFER 130897
+	int nbytes_total=0;
+	char received[BUFFER];
+
+	while ((nbytes_total = recv(sock,received,BUFFER,0)) > 0){
+		// printf("nbytes=%d %d\n",nbytes_total ,strlen(received));
+		write(1,received,nbytes_total);
+	}
+
+
+
+	close(sock);
 	return 0;
 }
