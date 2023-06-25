@@ -26,10 +26,10 @@ Inspired by https://github.com/codecrafters-io/build-your-own-x
 
 
 ### LIBRARY HOOKING
-* [Simple Linux write syscall hook](src/lib-write.c)
+* [Simple Linux write syscall hook](src/hooks/lib-write.c)
 
 ### Custom Shell
-* [Simple Linux shell in C](src/lib-write.c)
+* [Simple Linux shell in C](src/shell.c)
 * `References`
 	* https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/
 
